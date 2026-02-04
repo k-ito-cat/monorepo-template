@@ -1,3 +1,3 @@
-## bookmark-app-mock
+## monorepo-template
 
 `corepack enable`
