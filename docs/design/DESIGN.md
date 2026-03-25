@@ -3,7 +3,7 @@
 ## この文書の役割
 
 この文書は、`docs/design/` 配下のデザイン文書群における上位原則と入口を定義するための文書である。  
-ここでは、デザイン原則、文書群の責務、作成順序、参照関係を扱う。  
+ここでは、デザイン原則、文書群の責務、参照関係を扱う。  
 
 ## 目的
 
@@ -20,30 +20,13 @@
 ## 文書構成
 
 - `docs/design/DESIGN.md`: 上位原則と入口
+- `docs/design/workflow.md`: 前提条件、必須成果物、工程、ゲート
 - `docs/design/foundations.md`: テーマ、色、タイポグラフィ、余白、レイアウト、装飾、文言
 - `docs/design/components.md`: コンポーネント定義
 - `docs/design/ui-patterns.md`: UI パターン定義
 - `docs/design/screens.md`: 画面一覧、責務、画面設計
 - `docs/design/tokens.md`: 実装用トークン
 - `docs/design/checklist.md`: 抜け漏れ確認用チェックリスト
-
-## 作成順序
-
-1. `docs/design/` の文書群を定義する
-   - `DESIGN.md` だけでなく、関連する下位文書に未定義項目が残る場合は、以降へ進まない
-2. 必要要素を洗い出す
-   - 要件から必要コンポーネントを洗い出す
-   - UI パターンを洗い出す
-3. 視覚化作業を行う
-   - カラーパレットを作る
-   - タイポグラフィスタディを作る
-   - コンポーネントを作る
-4. 画面設計を行う
-   - 画面の一覧と責務定義を整理する
-   - 画面遷移図を作る
-   - 画面デザインを作る
-5. 実装ルールを整理する
-   - デザイントークン定義を整理する
 
 ## デザイン原則
 
@@ -121,6 +104,7 @@
 - `docs/specs/structure.md`
 - 必要に応じて `docs/specs/api.md`
 - `docs/design/foundations.md`
+- `docs/design/workflow.md`
 - `docs/design/components.md`
 - `docs/design/ui-patterns.md`
 - `docs/design/screens.md`
