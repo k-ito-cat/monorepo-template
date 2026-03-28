@@ -10,10 +10,8 @@
 ```txt
 docs/
   AGENTS.md
-  DESIGN.md
   design/
     DESIGN.md
-    workflow.md
     foundations.md
     components.md
     ui-patterns.md

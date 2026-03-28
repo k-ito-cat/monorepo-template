@@ -20,7 +20,6 @@
 ## 文書構成
 
 - `docs/design/DESIGN.md`: 上位原則と入口
-- `docs/design/workflow.md`: 前提条件、必須成果物、工程、ゲート
 - `docs/design/foundations.md`: テーマ、色、タイポグラフィ、余白、レイアウト、装飾、文言
 - `docs/design/components.md`: コンポーネント定義
 - `docs/design/ui-patterns.md`: UI パターン定義
@@ -104,7 +103,6 @@
 - `docs/specs/structure.md`
 - 必要に応じて `docs/specs/api.md`
 - `docs/design/foundations.md`
-- `docs/design/workflow.md`
 - `docs/design/components.md`
 - `docs/design/ui-patterns.md`
 - `docs/design/screens.md`

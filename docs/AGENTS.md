@@ -37,11 +37,12 @@
 ## デザイン作成時の参照ルール
 
 - デザイン作成時は、`docs/design/` 配下の文書群を前提として扱う
-- `docs/design/DESIGN.md` だけでなく、`workflow.md`、`foundations.md`、`components.md`、`ui-patterns.md`、`screens.md`、`tokens.md`、`checklist.md` を必要に応じて横断確認する
+- `docs/design/DESIGN.md` だけでなく、`foundations.md`、`components.md`、`ui-patterns.md`、`screens.md`、`tokens.md`、`checklist.md` を必要に応じて横断確認する
 - 文書未確認のまま、Pencil や画面デザインの作成へ進まない
 - 文書群に未定義項目や未整理の責務が残る場合は、先に文書を更新する
 - 文書群に未定義項目がある場合は、勝手に補完せず、ユーザーへヒアリングしながら内容を決める
 - ヒアリングで合意していない内容を、未定義項目へ推測で反映しない
+- 画面を列挙する過程で、仕様から自然に導けない画面や操作が必要になった場合は、画面設計を先に進めず、先に仕様文書を整理する
 - 文書群と不整合なデザインを作らない
 - デザイン更新後は、必要に応じて `docs/design/` 配下の関連文書へ差分を還元する
 
