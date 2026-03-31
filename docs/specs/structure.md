@@ -13,16 +13,25 @@ docs/
   design/
     DESIGN.md
     foundations.md
+    layouts.md
     components.md
     ui-patterns.md
     screens.md
     tokens.md
     checklist.md
   specs/
+  diagrams/.gitkeep
+  pencil/.gitkeep
 ```
 
 ## 現在のディレクトリ設計
 
 - `docs/design`
 - デザイン文書群の配置場所
-- 上位原則、foundations、components、patterns、screens、tokens、checklist をまとめて扱う
+- 上位原則、foundations、layouts、components、patterns、screens、tokens、checklist をまとめて扱う
+
+- `docs/diagrams`
+- ER 図などの図を置く
+
+- `docs/pencil`
+- 補助素材を置く
