@@ -20,6 +20,7 @@ docs/
     tokens.md
     checklist.md
   specs/
+    glossary.md
   diagrams/.gitkeep
   pencil/.gitkeep
 ```
@@ -35,3 +36,10 @@ docs/
 
 - `docs/pencil`
 - 補助素材を置く
+
+- `docs/specs`
+- プロダクト、用語、技術、構成、API の仕様書
+
+- `docs/specs/glossary.md`
+- UI と API の表示語彙、および DB スキーマとの対応関係を定義する正本
+- 命名の表記ゆれを防ぐ基準

@@ -148,6 +148,20 @@
 - `component gallery`: このプロダクトで使う全コンポーネントを、色、サイズ、状態、操作結果まで含めて完成状態で確定する
 - `screen design`: `component gallery` で確定済みのコンポーネントだけを使って画面を組み立てる
 
+### レスポンシブ対応の扱い
+
+- レスポンシブ対応するかどうかは、先に `docs/specs/product.md` でプロダクト方針として定義する
+- `product.md` でレスポンシブ対応対象と定義されている場合は、screen design でも responsive variation を扱う
+- モック段階などで responsive variation の画面デザイン作成を保留する場合は、その条件を `product.md` に明記する
+- `product.md` で非対応または未定義の場合は、screen design で勝手に responsive variation を作らない
+
+### 多言語対応の扱い
+
+- 多言語対応するかどうかは、先に `docs/specs/product.md` でプロダクト方針として定義する
+- `product.md` で多言語対応対象と定義されている場合は、screen design と component gallery でも言語切替、文言伸縮、複数言語での破綻防止を考慮する
+- モック段階などで多言語 variation の画面デザイン作成を保留する場合は、その条件を `product.md` に明記する
+- `product.md` で非対応または未定義の場合は、design 上で勝手に多言語 variation を作らない
+
 ### Component Gallery 完了後の確認
 
 - `Component Gallery` 作成後は、`screen design` へ進む前に文書群を再帰的に見直す
