@@ -8,8 +8,9 @@
 ## 現在の主要構成
 
 ```txt
-docs/
+.codex/
   AGENTS.md
+docs/
   design/
     DESIGN.md
     foundations.md
@@ -26,6 +27,10 @@ docs/
 ```
 
 ## 現在のディレクトリ設計
+
+- `.codex`
+- AI 向け運用ルールの配置場所
+- `AGENTS.md` など、プロジェクト全体の指示を管理する
 
 - `docs/design`
 - デザイン文書群の配置場所
