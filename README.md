@@ -11,7 +11,6 @@
 - API 設計方針: `docs/specs/api.md`
 - 非機能要件: `docs/specs/nfr.md`
 - QA / テスト方針: `docs/specs/qa.md`
-- 調査ログ: `docs/specs/research.md`
 - 実装計画 / TODO: `docs/specs/implementation-plan.md`
 - リリース準備: `docs/specs/release.md`
 - 法務 / プライバシー設計: `docs/specs/legal.md`

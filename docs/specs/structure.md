@@ -28,7 +28,6 @@ docs/
     api.md
     nfr.md
     qa.md
-    research.md
     implementation-plan.md
     release.md
     legal.md
@@ -74,11 +73,8 @@ docs/
 - `docs/specs/qa.md`
 - 受け入れ基準、テスト観点、回帰観点を定義する正本
 
-- `docs/specs/research.md`
-- 調査結果、比較観点、採用理由の記録先
-
 - `docs/specs/implementation-plan.md`
-- Do / Later / Skip と MVP 実装計画を管理する文書
+- MVP 実装の TODO、初期セットアップ、保留事項を管理する文書
 
 - `docs/specs/release.md`
 - リリース準備、CI/CD、公開前チェックを管理する文書
