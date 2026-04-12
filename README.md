@@ -9,6 +9,8 @@
 - 技術方針: `docs/specs/tech.md`
 - 構成方針: `docs/specs/structure.md`
 - API 設計方針: `docs/specs/api.md`
+- バリデーション方針: `docs/specs/validation.md`
+- エラー方針: `docs/specs/error-policy.md`
 - 非機能要件: `docs/specs/nfr.md`
 - QA / テスト方針: `docs/specs/qa.md`
 - 実装計画 / TODO: `docs/specs/implementation-plan.md`

@@ -26,6 +26,8 @@ docs/
     tech.md
     structure.md
     api.md
+    validation.md
+    error-policy.md
     nfr.md
     qa.md
     implementation-plan.md
@@ -52,7 +54,7 @@ docs/
 - 補助素材を置く
 
 - `docs/specs`
-- プロダクト、用語、技術、構成、API の仕様書
+- プロダクト、用語、技術、構成、API、バリデーション、エラー方針の仕様書
 
 - `docs/specs/product.md`
 - 背景、対象ユーザー、提供価値、ゴール、スコープを定義する正本
@@ -66,6 +68,12 @@ docs/
 
 - `docs/specs/api.md`
 - API 契約、入出力、エラー方針を定義する正本
+
+- `docs/specs/validation.md`
+- バリデーション論点、レイヤ別責務、未決事項を整理する正本
+
+- `docs/specs/error-policy.md`
+- エラーレスポンス形式、エラーコード、ログ境界を整理する正本
 
 - `docs/specs/nfr.md`
 - 非機能要件、対応環境、運用要件を定義する正本
